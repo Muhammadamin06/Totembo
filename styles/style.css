@@ -241,6 +241,7 @@ ul {
     text-align: center;
     margin: 60px 0 40px 0;
     letter-spacing: 2.2px;
+    color: #000;
 }
 
 .section__clocks {
@@ -380,6 +381,7 @@ ul {
     padding: 13px 29px;
     width: 150px;
     margin: 20px 0 30px 20px;
+    color: #000;
 }
 
 .news__title {
