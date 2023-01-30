@@ -1,0 +1,154 @@
+@media (max-width:1320px) {
+    .header__contact, .header__list{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        text-align: center;
+    }
+    .section__block{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .section__clocks{
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .section__news{
+        flex-wrap:wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .header__icon,.section__title,.section__advise{
+        color: #000;
+    }
+}
+@media (max-width:992px) {
+    .section__diadema{
+        width: 536px;
+        height: 294px;
+    }
+    .section__clocks{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .footer__block .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:576px) {
+    .header__icons{
+        margin-right: 15px;
+    }
+    .section__pierre, .section__swiss, .section__diadema{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .section__diadema{
+        height: fit-content;
+    }
+    .section-sale{
+        padding: 8px 25px;
+        left: 12px;
+        top: 5px;
+    } 
+    .section__pierre img{
+        margin-top: 15px;
+    }
+    .section__swiss img{
+        margin-top: 15px;
+    }
+    .section__choice, .section__mechanical-clocks{
+        width: 100%;
+    }
+    .news__title{
+        margin: 0 ;
+        width: 100%;
+        font-size: 18px;
+    }
+    #second__title{
+        font-size: 18px;
+    }
+    .news__text{
+        margin: 0;
+        width: 100%;
+    }
+    .section__time{
+        margin: 50px 0 30px 30px;
+    }
+    #box-item1, #box-item2{
+        width: 100%;
+    }
+    .news__text{
+        margin-top: 15px;
+    }
+    .location{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .section__title{
+        font-size: 22px;
+        width: 100%;
+    }
+    .section-sale{
+        padding: 4px 12px;
+    }
+    .section__pierre, .section__swiss{
+        height: fit-content;
+    }
+    .about-pierre{
+        margin-left: 20px;
+    }
+    .section__diadema img{
+        width: 80%;
+    }
+    .pierre-name{
+        font-size: 15px;
+    }
+    .diadema-name{
+        margin: 15px 0 15px 10px;
+        font-size: 20px;
+    }
+    .swiss-name{
+        font-size: 15px;
+    }
+    .section__box{
+        width: 100%;
+    }
+    .section__news{
+        height: fit-content;
+    }
+    .section__advise{
+        margin: 10px 0 15px 10px;
+    }
+    .clock-sale{
+        padding: 6px 9px;
+        margin-top: 10px;
+    }
+    .section__like,.section__cart{
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .section__title{
+        margin: 15px 0 15px 0;
+    }
+    .section__time{
+        width: 100%;
+    }
+    .footer__contact{
+        flex-wrap: wrap;
+    }
+    .contact-number{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+}
