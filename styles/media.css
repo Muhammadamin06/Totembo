@@ -89,6 +89,7 @@
     .location{
         width: 100%;
     }
+
 }
 @media (max-width:400px) {
     .section__title{
@@ -149,6 +150,9 @@
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 5px;
+    }
+    #box-item2 ,#box-item1 ,.section__box {
+        width:fit-content ;
     }
 
 }
